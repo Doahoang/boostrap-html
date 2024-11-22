@@ -1,0 +1,54 @@
+.navbar.fixed-top {
+    background-color: white; /* Nền trắng */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Tạo hiệu ứng bóng nhẹ (tuỳ chọn) */
+    z-index: 1030; /* Đảm bảo nó nổi trên các phần tử khác */
+}
+body {
+    padding-top: 90px; /* Điều chỉnh giá trị này theo chiều cao của navbar */
+}
+.navbar.navbar-expand-lg.navbar-light {
+    background-color: rgb(84, 148, 36);
+    font-weight: 500;
+}
+.navbar-nav {
+    display: flex;
+    justify-content: space-around; /* Căn chỉnh đều các mục */
+    flex-wrap: nowrap; /* Không cho phép wrap */
+    width: 100%; /* Đảm bảo chiều rộng đầy đủ cho navbar */
+}
+
+
+
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    border-top: var(--bs-border-width) solid;
+    opacity: .25;
+}   
+.footer2 h5 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.footer2 ul {
+    list-style: none;
+    padding: 0;
+
+}
+.footer2 img {
+    max-width: 220px;
+    margin: 10px;
+}
+.footer2 hr {
+    border-top: 1px solid #ccc;
+    margin: 30px 0;
+}
+.footer3 {
+    background-color: #2d451a;;
+    color: #fff;
+    padding: 0px 0;
+}
+.footer3 a {
+    color: #fff;
+    text-decoration: none;
+}
